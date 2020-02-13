@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --my-width: 40px;
+  --my-heigth: 500;
+  --my-margin: 10px;
+  --my-border: 1 px solid black;
+  --my-color: orange;
+}
+.graph {
+  width: var(--my-width);
+
+  height: calc(var(--my-heigth) * 1px);
+  border: var(--my-border);
+  margin: var(--my-margin);
+  /* display: inline; */
+  display: inline-block;
+  background-color: var(--my-color);
+}
